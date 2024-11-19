@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Dashboard Demo</title>
+</head>
+<body>
+    <input type="checkbox" name="" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-flex">
+                <!-- <img src="/img/ptclogo.png" width="30px" alt="Company Logo"> -->
+                demo company
+                <div class="brand-icons">
+                    <span class="las la-bell"></span>
+                    <span class="las la-user-circle"></span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-main">
+            <div class="sidebar-user">
+                <img src="/img/p.png" alt="User Profile">
+                <div>
+                    <h3>Kumar</h3>
+                    <span>kumar@tc.com</span>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-head">
+                    <span>Dashboard</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="las la-balance-scale"></span>
+                            Finance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="las la-chart-pie"></span>
+                            Analytics
+                        </a>
+                    </li>
+                </ul>
+                <div class="menu-head">
+                    <span>Application</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="las la-calendar"></span>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="las la-users"></span>
+                            Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="las la-shopping-cart"></span>
+                            Ecommerce
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="las la-envelope"></span>
+                            Mailbox
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="las la-check-circle"></span>
+                            Tasks
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="menu-toggle">
+                <label>
+                    <span class="las la-bars"></span>
+                </label>
+            </div>
+            <div class="header-icons">
+                <span class="las la-search"></span>
+                <span class="las la-bookmark"></span>
+                <span class="las la-sms"></span>
+            </div>
+        </header>
+        <main>
+            <div class="page-header">
+                <div>
+                    <h1>Analytics Dashboard</h1>
+                    <small>Monitor Key Metrics. Check Reporting and Review Insights</small>
+                </div>
+                <div class="header-actions">
+                    <button>
+                        <span class="las la-file-export"></span>
+                        Export
+                    </button>
+                    <button>
+                        <span class="las la-tools"></span>
+                        Settings
+                    </button>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-single">
+                    <div class="card-flex">
+                        <div class="card-info">
+                            <div class="card-head">
+                                <span>Purchase</span>
+                                <small>Number of Purchases</small>
+                            </div>
+                            <h2>12,300</h2>
+                            <small>2% less purchases</small>
+                        </div>
+                        <div class="card-chart success">
+                            <span class="las la-chart-line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div class="card-flex">
+                        <div class="card-info">
+                            <div class="card-head">
+                                <span>Unique Visitors</span>
+                                <small>Number of Visitors</small>
+                            </div>
+                            <h2>13,309</h2>
+                            <small>2% fewer visitors</small>
+                        </div>
+                        <div class="card-chart danger">
+                            <span class="las la-chart-line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div class="card-flex">
+                        <div class="card-info">
+                            <div class="card-head">
+                                <span>Refund</span>
+                                <small>Number of Refunds</small>
+                            </div>
+                            <h2>300</h2>
+                            <small>200% fewer refunds</small>
+                        </div>
+                        <div class="card-chart yellow">
+                            <span class="las la-chart-line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jobs-grid">
+                <div class="analytics-card">
+                    <div class="analytics-head">
+                        <h3>Actions Needed</h3>
+                        <span class="las la-ellipsis-h"></span>
+                    </div>
+                    <div class="analytics-chart">
+                        <div class="chart-circle">
+                            <h1>76%</h1>
+                        </div>
+                        <div class="analytics-note">
+                            <small>Note: Current sprint requires stakeholder feedback</small>
+                        </div>
+                    </div>
+                    <div class="analytics-btn">
+                        <button>Generate Report</button>
+                    </div>
+                </div>
+                <div class="jobs">
+                    <h2>Jobs <small>See All Jobs <span class="las la-arrow-right"></span></small></h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Status</th>
+                                <th>Job Title</th>
+                                <th>Department</th>
+                                <th>Location</th>
+                                <th>Posted</th>
+                                <th>Applications</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="indicator success"></span></td>
+                                <td>Customer Experience Designer</td>
+                                <td>Design</td>
+                                <td>Copenhagen, DK</td>
+                                <td>Posted 6 days ago</td>
+                                <td><button>8 applications</button></td>
+                            </tr>
+                            <tr>
+                                <td><span class="indicator danger"></span></td>
+                                <td>Software Developer</td>
+                                <td>Development</td>
+                                <td>Copenhagen, DK</td>
+                                <td>Posted 6 days ago</td>
+                                <td><button>3 applications</button></td>
+                            </tr>
+                            <tr>
+                                <td><span class="indicator"></span></td>
+                                <td>Network Engineer</td>
+                                <td>Design</td>
+                                <td>Copenhagen, DK</td>
+                                <td>Posted 2 days ago</td>
+                                <td><button>18 applications</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 My Company. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><span class="las la-facebook"></span></a>
+                <a href="#"><span class="las la-twitter"></span></a>
+                <a href="#"><span class="las la-linkedin"></span></a>
+                <a href="#"><span class="las la-instagram"></span></a>
+            </div>
+            <p>
+                Built with ❤️ by <a href="https://example.com">Your Company</a>
+            </p>
+        </footer>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
